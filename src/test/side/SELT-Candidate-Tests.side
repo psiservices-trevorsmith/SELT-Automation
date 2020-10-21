@@ -1,0 +1,472 @@
+{
+  "id": "30305060-780c-4a2d-9e9f-a167d16341da",
+  "version": "2.0",
+  "name": "SELT-Candidate-Tests",
+  "url": "http://localhost:8086/",
+  "tests": [{
+    "id": "4812ce3a-2a88-44e3-8ec9-f24a9b174624",
+    "name": "Book Activity A1 Timed-out",
+    "commands": [{
+      "id": "bd34832f-99d4-4219-99d0-5275a6da5723",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64cd33b3-ef25-4863-a38a-9d42a55aca29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "657a7467-e1fd-4706-9a47-fc200d8b8842",
+      "comment": "",
+      "command": "click",
+      "target": "id=startYourBooking",
+      "targets": [
+        ["id=startYourBooking", "id"],
+        ["css=#startYourBooking", "css:finder"],
+        ["xpath=//a[contains(text(),'Start\n            your booking')]", "xpath:link"],
+        ["xpath=//a[@id='startYourBooking']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b68a36-30f9-429e-8ca7-5ce22c24381f",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "964dc58c-5ec5-4cc2-9e77-109b440efe38",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": "Fatfr@g99"
+    }, {
+      "id": "4e59dde5-5717-4710-a8ad-edfcc9791d86",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "gypsy@test.com"
+    }, {
+      "id": "56ee5791-ada2-4918-a077-dd957ff1deb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.disableLink", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb6c006f-596f-4a58-9b2d-75358a778e6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=book-new-test",
+      "targets": [
+        ["id=book-new-test", "id"],
+        ["linkText=Make a booking", "linkText"],
+        ["css=#book-new-test", "css:finder"],
+        ["xpath=//a[contains(text(),'Make a booking')]", "xpath:link"],
+        ["xpath=//a[@id='book-new-test']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/booking/getting-started')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Make a booking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fedd42c-10c5-42c0-b7bb-febdc234f549",
+      "comment": "",
+      "command": "click",
+      "target": "id=proceed",
+      "targets": [
+        ["id=proceed", "id"],
+        ["name=okbutton", "name"],
+        ["css=#proceed", "css:finder"],
+        ["xpath=//input[@id='proceed']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3f523f9-4fd8-417c-a872-00bcca821100",
+      "comment": "",
+      "command": "click",
+      "target": "id=activity-options",
+      "targets": [
+        ["id=activity-options", "id"],
+        ["name=externalActivityCode", "name"],
+        ["css=#activity-options", "css:finder"],
+        ["xpath=//select[@id='activity-options']", "xpath:attributes"],
+        ["xpath=//form[@id='choose-activity-form']/div/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "981d2b25-d2c3-4836-b1e9-f3d32748e740",
+      "comment": "",
+      "command": "select",
+      "target": "id=activity-options",
+      "targets": [],
+      "value": "label=UKVI Speaking and listening at level A1"
+    }, {
+      "id": "ef71334f-04ca-4685-9b4d-f816888fb1e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=activity-options",
+      "targets": [
+        ["id=activity-options", "id"],
+        ["name=externalActivityCode", "name"],
+        ["css=#activity-options", "css:finder"],
+        ["xpath=//select[@id='activity-options']", "xpath:attributes"],
+        ["xpath=//form[@id='choose-activity-form']/div/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbe9e041-f5e1-4768-8269-2dfb19e67c6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=proceed",
+      "targets": [
+        ["id=proceed", "id"],
+        ["name=_eventId_proceed", "name"],
+        ["css=#proceed", "css:finder"],
+        ["xpath=//button[@id='proceed']", "xpath:attributes"],
+        ["xpath=//form[@id='choose-activity-form']/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53b49566-7a7e-42d7-8ccf-54f1f92a2953",
+      "comment": "",
+      "command": "click",
+      "target": "id=countries",
+      "targets": [
+        ["id=countries", "id"],
+        ["name=countryCode", "name"],
+        ["css=#countries", "css:finder"],
+        ["xpath=//select[@id='countries']", "xpath:attributes"],
+        ["xpath=//form[@id='centre-search']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f23e03ad-34c1-4436-bb58-6ecbeffef745",
+      "comment": "",
+      "command": "select",
+      "target": "id=countries",
+      "targets": [],
+      "value": "label=Afghanistan"
+    }, {
+      "id": "9a28e6a0-054f-4734-9b1a-aa377fa69934",
+      "comment": "",
+      "command": "click",
+      "target": "id=countries",
+      "targets": [
+        ["id=countries", "id"],
+        ["name=countryCode", "name"],
+        ["css=#countries", "css:finder"],
+        ["xpath=//select[@id='countries']", "xpath:attributes"],
+        ["xpath=//form[@id='centre-search']/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb568e2-487d-49ea-a737-a5aa8e4639b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=queryTerm", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//form[@id='centre-search']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9105267d-46bf-406f-b524-9ac2314cc256",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-2",
+      "targets": [
+        ["id=ui-id-2", "id"],
+        ["css=#ui-id-2", "css:finder"],
+        ["xpath=//div[@id='ui-id-2']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Kabul, Afghanistan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb47755b-ea57-4976-be2b-b7f1ab26d370",
+      "comment": "",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=queryTerm", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//form[@id='centre-search']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Kabul, Afghanistan"
+    }, {
+      "id": "5b9e2494-ecd4-4ed8-ab56-d0787b21be32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon",
+      "targets": [
+        ["css=.glyphicon", "css:finder"],
+        ["xpath=//button[@id='_eventId_search']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "559fe346-4076-448f-b2bc-14e066a3c285",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8.333333015441895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d5b8ee1-05db-4c9d-bf08-03c0a7e1216d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,133.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7ad6885-0f44-48a9-8c1c-f1c3b9bfbf95",
+      "comment": "",
+      "command": "click",
+      "target": "id=1",
+      "targets": [
+        ["id=1", "id"],
+        ["linkText=View availability", "linkText"],
+        ["css=#\\31", "css:finder"],
+        ["xpath=//a[contains(text(),'View availability')]", "xpath:link"],
+        ["xpath=//a[@id='1']", "xpath:attributes"],
+        ["xpath=//div[@id='centre1']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/booking?execution=e1s3&_eventId=proceed&primaryFacilityCode=PW8VT7LA')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View availability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98bd429f-3713-4c3f-8875-ab006c08e576",
+      "comment": "",
+      "command": "click",
+      "target": "css=#no8 > .day-number",
+      "targets": [
+        ["css=#no8 > .day-number", "css:finder"],
+        ["xpath=//a[@id='no8']/span", "xpath:idRelative"],
+        ["xpath=//div[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7686af11-a52c-4e8b-ac68-99bec7c31382",
+      "comment": "",
+      "command": "click",
+      "target": "id=day8-book0",
+      "targets": [
+        ["id=day8-book0", "id"],
+        ["linkText=Book Test: 1802.00 CNY", "linkText"],
+        ["css=#day8-book0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book Test: 1802.00 CNY')])[5]", "xpath:link"],
+        ["xpath=//a[@id='day8-book0']", "xpath:attributes"],
+        ["xpath=//div[@id='day8-slot0']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/booking?execution=e1s4&_eventId=proceed&date=27/10/2020&startTime=09:00%20am&day=8&session=0')]", "xpath:href"],
+        ["xpath=//div[11]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "818759d3-10db-4032-be86-0f50f056efcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=proceed",
+      "targets": [
+        ["id=proceed", "id"],
+        ["name=_eventId_proceed", "name"],
+        ["css=#proceed", "css:finder"],
+        ["xpath=//button[@id='proceed']", "xpath:attributes"],
+        ["xpath=//div[@id='confirm-and-pay']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm and pay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ff24bb-a6ff-4eaa-b389-768d7570bd5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=authorise",
+      "targets": [
+        ["id=authorise", "id"],
+        ["linkText=AUTHORISE", "linkText"],
+        ["css=#authorise", "css:finder"],
+        ["xpath=//a[contains(text(),'AUTHORISE')]", "xpath:link"],
+        ["xpath=//a[@id='authorise']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/smartPay/accept/63?merchantReturnData=9cab8a10-b2bd-4835-ab27-b27dbd897206&redirectUrlPrefix=http://localhost:8086&payRootUrl=http://localhost:8380&merchantAccountCode=PSIServicesUK1&x_response_code=1&x_response_reason_code=1&x_po_num=9cab8a10-b2bd-4835-ab27-b27dbd897206&x_trans_id=36c54d34-6&x_auth_code=ET90f3a3&MerchantName=PSI DEMO0273&TransactionCardType=VISA&x_response_reason_text=Transaction has been approved&x_amount=1802.0&Retrieval_Ref_No=3f0676&x_invoice_num=63&exact_ctr=========== TRANSACTION RECORD ========== PSI DEMO0273 , AL United States TYPE')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'AUTHORISE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5239db65-2212-40b5-98e0-876d4eee9096",
+      "comment": "",
+      "command": "click",
+      "target": "id=proceed",
+      "targets": [
+        ["id=proceed", "id"],
+        ["css=#proceed", "css:finder"],
+        ["xpath=(//a[contains(text(),'My account')])[2]", "xpath:link"],
+        ["xpath=//a[@id='proceed']", "xpath:attributes"],
+        ["xpath=//div[@id='timeoutMessage']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/manage-account')])[2]", "xpath:href"],
+        ["xpath=//form/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f608bc4-9f5b-45a3-90a1-c1e8ca689b7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4028efab-f27a-44ba-805d-b5289c967295",
+    "name": "Cancel C2 Test",
+    "commands": [{
+      "id": "139b67ad-829f-4cbc-926b-697dba854248",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8086/manage-account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0dc2f9e-cdb0-40b8-9d93-0a95e4e6d9a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x564",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8086f8a6-d704-415e-8ab7-c09801eb0601",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirmed bookings 1",
+      "targets": [
+        ["linkText=Confirmed bookings 1", "linkText"],
+        ["css=#confirmedTab > a", "css:finder"],
+        ["xpath=//li[@id='confirmedTab']/a", "xpath:idRelative"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirmed bookings 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edfd1c09-7d8b-485f-b212-10626c1bc6d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmed-1-okbutton",
+      "targets": [
+        ["id=confirmed-1-okbutton", "id"],
+        ["linkText=View test", "linkText"],
+        ["css=#confirmed-1-okbutton", "css:finder"],
+        ["xpath=//a[@id='confirmed-1-okbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='confirmed-1']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/booking?bookingReference=8e871fa2-bc98-491b-b429-78dce21b2f03&fromAccount=true')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a3314b-d394-4f57-a635-513b95909ee7",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmCancel",
+      "targets": [
+        ["id=confirmCancel", "id"],
+        ["linkText=Cancel test", "linkText"],
+        ["css=#confirmCancel", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel test')]", "xpath:link"],
+        ["xpath=//a[@id='confirmCancel']", "xpath:attributes"],
+        ["xpath=//div[@id='confirm-and-pay']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cancelBooking/8e871fa2-bc98-491b-b429-78dce21b2f03/confirmCancel')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c98ce9-7b30-40e1-bc94-b265c3c08c69",
+      "comment": "",
+      "command": "click",
+      "target": "id=cancel",
+      "targets": [
+        ["id=cancel", "id"],
+        ["css=#cancel", "css:finder"],
+        ["xpath=//input[@id='cancel']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5278bc42-be8a-4fa2-9c84-4bfff8f522b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Confirmed bookings 0",
+      "targets": [
+        ["linkText=Confirmed bookings 0", "linkText"],
+        ["css=#confirmedTab > a", "css:finder"],
+        ["xpath=//li[@id='confirmedTab']/a", "xpath:idRelative"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Confirmed bookings 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f8ebc88b-bd2d-4541-8697-69e3da94fe2c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4812ce3a-2a88-44e3-8ec9-f24a9b174624"]
+  }],
+  "urls": ["http://localhost:8086/"],
+  "plugins": []
+}
