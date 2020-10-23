@@ -4,3 +4,5 @@
 /chromedriver.log
 /scratch/
 /target/
+/side-suite-SELT-Candidate-Tests*/
+/debug.log

@@ -12,11 +12,13 @@
         <java.version>11</java.version>
         <maven.compiler.version>3.6.0</maven.compiler.version>
         <karate.version>0.9.6</karate.version>
+        <cucumber.version>1.2.5</cucumber.version>
     </properties>
 
     <dependencies>
+    
         <!-- Karate Core -->
-        
+
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-apache</artifactId>
@@ -43,6 +45,22 @@
             <artifactId>selenium-java</artifactId>
             <version>4.0.0-alpha-3</version>
         </dependency>
+        
+        <!-- Cucumber -->
+        
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

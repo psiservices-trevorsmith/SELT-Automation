@@ -1,0 +1,54 @@
+{
+	"header": {
+		"myAccount": "{a}My account"
+	},
+	"footer": {
+		"section": "div[id=footer]"
+	},
+	"accountView": {
+		"path": "/manage-account",
+        "bookTestButton": "#book-new-test",
+		"confirmedTab": "{^a}Confirmed bookings",
+        "confirmedList": "div[id=confirmed]",
+		"firstConfirmedBooking": "a[id=confirmed-1-okbutton]"
+	},
+	"specialRequirements": {
+		"proceed": "#proceed"
+	},
+	"activityChoice": {
+		"dropdown": "#activity-options",
+		"option": "select[name=externalActivityCode]",
+		"proceed": "#proceed"
+	},
+	"centreSearch": {
+		"countryDropdown": "select[name=countryCode]",
+		"countryOption": "select[name=countryCode]",
+		"locationEntry": "#location",
+		"searchButton": "#_eventId_search",
+		"firstAvailableCentre": "{a}View availability",
+		"secondAvailableCentre": "{a:2}View availability"
+	},
+	"slotAvailability": {
+		"title": "{^h1}When would you like to sit your test",
+		"secondaryCentreSlots": ".othercentre",
+		"firstTimeSlot": "{^a:1}Book Test"
+	},
+    "bookingConfirmation": {
+        "confirmAndPayButton": "{button}Confirm and pay"
+    },
+	"payProviderStub": {
+		"authorise": "a[id=authorise]"
+	},
+	"paymentProcessing": {
+		"waiting": "{^}Please wait while we process your payment",
+		"thankYou": "{h1}Thank you"
+	},
+    "bookingView": {
+        "title": "{^h1}Your booking",
+        "cancelButton": "#confirmCancel"
+    },
+    "bookingCancellation": {
+        "title": "{^h1}Cancel your booking",
+        "confirmButton": "input[id=cancel]"
+    }
+}

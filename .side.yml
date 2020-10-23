@@ -1,0 +1,6 @@
+{
+  capabilities: { browserName: 'chrome' },
+  params: {},
+  path: 'C:\\Users\\trevor.smith\\AppData\\Roaming\\npm\\node_modules\\',
+  timeout: 300000
+}
