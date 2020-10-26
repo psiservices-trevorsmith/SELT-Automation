@@ -1,3 +1,4 @@
+@ignore
 Feature: SELT login
   As a candidate I want to login to my account in order to view my test bookings
 
