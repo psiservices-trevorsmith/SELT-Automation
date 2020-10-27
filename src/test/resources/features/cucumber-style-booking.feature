@@ -4,7 +4,7 @@ Feature: SELT Candidate Activity Booking
   Background:
     Given I have logged in to SELT with username 'gypsy@test.com'
 
-  @book @activityChoice
+  @wip @activityChoice @Smoke
   Scenario: Candidate chooses to book activity C2
     Given my browser is open at URL 'http://localhost:8086/manage-account'
     And I click book new test
